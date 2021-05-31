@@ -36,7 +36,7 @@
 
 .nav-item{
     margin-left: 20px;
-    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
@@ -50,6 +50,10 @@
 
 .dropdown-item:focus, .dropdown-item:hover {
     background-color: #fbc717;
+}
+
+.dropdown-item{
+    letter-spacing: initial;
 }
 
 .dropdown-principal:focus, .dropdown-principal:hover {
@@ -75,8 +79,14 @@
     margin-right: 0;
 }
 
-.jumbotron h1, .jumbotron h4{
+h1, h4{
     font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+p, li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
 }
 
 .jumbotron h1{
@@ -174,14 +184,18 @@
 .seccion{
     display: flex;
     height: 120px;
+    margin: 10px 0;
 }
 
 .seccion img{
-    max-height: 30px;
+    max-height: 45px;
 }
 
 .icono{
-    white-space: pre;
+    /* white-space: pre; */
+    line-height: 65px;
+    text-align: center;
+    width: 69px;
 }
 
 .icon-gradient {
@@ -198,9 +212,21 @@
 }
 
 .gradient-1 {
-    background-image: linear-gradient(#6240c8 0%, #a145fe 100%);
+    /* background-image: linear-gradient(#6240c8 0%, #a145fe 100%); */
+    background-color: #003177;
 }
 
 .texto{
-    width: -webkit-fill-available;
+    /* width: -webkit-fill-available; */
+    width: 93%;
 }
+
+.texto h4{
+    color: #0095d9;
+}
+
+.texto p{
+    color: #003177;
+    font-size: 20px;
+}
+
