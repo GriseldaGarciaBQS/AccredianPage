@@ -25,6 +25,15 @@
     justify-content: flex-end;
 }
 
+.navbar-light .navbar-toggler{
+    color: white;
+    border-color: transparent;
+}
+
+.navbar-toggler:focus{
+    box-shadow: transparent;
+}
+
 /* .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
     justify-content: flex-end;
     margin-right: 0;
